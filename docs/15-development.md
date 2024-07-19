@@ -18,6 +18,22 @@ Colibri is a TypeScript library to work with HDL (VHDL, Verilog and SV). It's th
 - Dependencies images.
 - Project manager: simulations, compilations...
 
+
+## Local Development Setup
+
+ To set up the project for local development, follow these steps:
+1. Clone the repository to your local machine.
+2. Set up the frontend and colibri backend:
+- cd packages/teroshdl/
+- npm install
+- cd ../colibri
+- npm install
+- npm run-script build
+3. Open the project in Visual Studio Code
+4. Debug the extension:
+Press F5 and start the development environment for the extension in VS Code.
+
+
  ## Architecture
 
 <p align="center">
